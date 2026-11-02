@@ -46,7 +46,7 @@ const channels: ContactChannel[] = [
 export function Contact() {
   return (
     <section id="contact" className="scroll-mt-8 py-16 lg:py-24">
-      <div className="relative overflow-hidden rounded-3xl border border-border bg-surface/80 p-6 sm:p-12">
+      <div className="reveal relative overflow-hidden rounded-3xl border border-border bg-surface/80 p-6 sm:p-12">
         <div className="pointer-events-none absolute -top-32 -right-32 size-96 rounded-full bg-accent/20 blur-3xl" />
 
         {/* min-w-0 lets long values (like the email) truncate instead of widening the grid */}

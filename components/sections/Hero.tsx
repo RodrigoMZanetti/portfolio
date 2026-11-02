@@ -19,7 +19,7 @@ export function Hero() {
       id="home"
       className="flex flex-col-reverse items-center gap-12 py-12 lg:flex-row lg:justify-between lg:py-20"
     >
-      <div className="max-w-2xl">
+      <div className="max-w-2xl animate-fade-up">
         <h1 className="text-4xl leading-tight font-bold sm:text-6xl lg:text-7xl">
           Hi, I&apos;m
           <br />
@@ -53,7 +53,7 @@ export function Hero() {
         </Button>
       </div>
 
-      <div className="relative shrink-0">
+      <div className="relative shrink-0 animate-fade-up [animation-delay:150ms]">
         <div className="absolute inset-0 rounded-full bg-accent/30 blur-3xl" />
         <Image
           src={site.photo}

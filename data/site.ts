@@ -1,3 +1,8 @@
+// Vercel sets VERCEL_PROJECT_PRODUCTION_URL on deploy (without the protocol)
+export const siteUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL
+  ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+  : "http://localhost:3000";
+
 export const site = {
   name: "Rodrigo Zanetti",
   logo: "Zanetti",

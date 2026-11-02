@@ -15,7 +15,7 @@ export function ProjectCard({ project }: { project: Project }) {
   const hiddenTags = project.technologies.length - MAX_TAGS;
 
   return (
-    <article className="group relative flex flex-col rounded-2xl border border-border bg-surface/80 p-4 transition-colors hover:border-accent/60">
+    <article className="reveal group relative flex flex-col rounded-2xl border border-border bg-surface/80 p-4 transition-colors hover:border-accent/60">
       <div className="relative aspect-16/10 overflow-hidden rounded-xl bg-white">
         <Image
           src={project.image}

@@ -37,7 +37,7 @@ export default async function ProjectPage({
   if (!project) notFound();
 
   return (
-    <main className="mx-auto w-full max-w-7xl flex-1 px-6 py-12">
+    <main id="main-content" className="mx-auto w-full max-w-7xl flex-1 px-6 py-12">
       <Link
         href="/projects"
         className="inline-flex items-center gap-2 text-foreground/80 transition-colors hover:text-accent"

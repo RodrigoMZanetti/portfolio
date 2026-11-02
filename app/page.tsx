@@ -4,7 +4,7 @@ import { Hero } from "@/components/sections/Hero";
 
 export default function Home() {
   return (
-    <main className="mx-auto w-full max-w-7xl flex-1 px-6">
+    <main id="main-content" className="mx-auto w-full max-w-7xl flex-1 px-6">
       <Hero />
       <FeaturedProjects />
       <Contact />
